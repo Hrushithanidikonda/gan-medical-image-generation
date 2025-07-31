@@ -21,3 +21,33 @@ This project implements Generative Adversarial Networks (GANs) using PyTorch to 
 
 ##  Folder Layout
 
+gan-medical-image-generation/
+│
+├── part1_synthetic_gan/
+│ ├── sine_wave_gan.ipynb
+│ └── noisy_curve_gan.ipynb
+│
+├── part2_pathmnist_dcgan/
+│ ├── Pathology_Image_Generation_with_cGAN.ipynb
+│ └── figures/
+│ ├── figure4_class_distribution.png
+│ ├── figure5_dcgan_output.png
+│ └── figure6_cgan_output.png
+│
+├── report/
+│ └── GAN_Report.pdf # Optional if you want to include it
+│
+└── README.md
+
+##  Requirements
+
+- Python 3.8+
+- PyTorch
+- torchvision
+- matplotlib
+- medmnist
+
+To install the required packages:
+```bash
+pip install torch torchvision matplotlib medmnist
+
